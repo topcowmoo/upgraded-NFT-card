@@ -1,0 +1,62 @@
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%) 
+
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
+
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%)
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+}
+
+h3 {
+    color: hsl(178, 100%, 50%);
+}
+
+p, h4 {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.wyvern {
+    color: hsl(0, 0%, 100%);
+}    
+
+.avatar {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.attribution {
+    font-size: 11px; text-align: center
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
